@@ -15,9 +15,9 @@ python demo_dsap.py
 ```
 
 # Installation
-Our project is built upon the official code of LoFTR and trained on the MegaDepth dataset.
+Our project is built upon the official code of LoFTR and trained on the ScanNet and MegaDepth dataset.
 Please follow [LoFTR](https://github.com/zju3dv/LoFTR) to install the environment and MegaDepth dataset.
-Please modify the dataset path in megadepth_trainval_840.py when training and testing.
+Please modify the dataset path in /configs/data when training and testing.
 
 # Training
 We can run the scripts/reproduce_train/outdoor_ds.sh file to train DSAP.
