@@ -26,6 +26,7 @@ Please follow the official code of LoFTR to train VD-Matcher.
 The pre-trained models can be downloaded from [DSAP_Mega](https://drive.google.com/drive/folders/1FU8GZ_VdUdbBhPw7m00JNr5Nzd7ZEDg4).
 Then, we run the following code to test DSAP.
 ```bash
+# Testing VDMatcher-S on the MegeDepth dataset
 bash scripts/reproduce_test/outdoor_small.sh
 ```
 
