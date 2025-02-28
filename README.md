@@ -7,7 +7,7 @@ This is the PyTorch implementation of our paper "VD-Matcher: A Very Deep Local F
 # Get Started Demo
 ![demo_img](https://github.com/mooncake199809/VD-Matcher/blob/main/imgs/Matches.png)
 
-We provide a demo to directly visualize the matching results of DSAP.
+We provide a demo to directly visualize the matching results of VD-Matcher.
 You can directly modify your images path to test your own images. The coarse matching threshold is set to 0.7 in this demo. You can change it in src/loftr/utils/cvpr_ds_config.py.
 ```bash
 cd demo
