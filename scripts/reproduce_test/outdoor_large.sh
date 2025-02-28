@@ -8,7 +8,7 @@ export PYTHONPATH=$PROJECT_DIR:$PYTHONPATH
 cd $PROJECT_DIR
 
 data_cfg_path="configs/data/megadepth_test_1500.py"
-main_cfg_path="configs/loftr/outdoor/buggy_pos_enc/loftr_ds.py"
+main_cfg_path="configs/loftr/outdoor/buggy_pos_enc/loftr_ds_large.py"
 
 ckpt_path="/mnt/share/sda-8T/dk/VDMatcher/new_weights/vdmatcher_outdoor_large.ckpt"
 dump_dir="dump/loftr_ds_outdoor"
