@@ -20,7 +20,7 @@ Please follow [LoFTR](https://github.com/zju3dv/LoFTR) to install the environmen
 Please modify the dataset path in /configs/data when training and testing.
 
 # Training
-Please follow the official code of LoFTR to train VD-Matcher.
+Please follow the official code of [LoFTR](https://github.com/zju3dv/LoFTR) to train VD-Matcher.
 
 # Evaluation
 The pre-trained models can be downloaded from [DSAP_Mega](https://drive.google.com/drive/folders/1FU8GZ_VdUdbBhPw7m00JNr5Nzd7ZEDg4).
