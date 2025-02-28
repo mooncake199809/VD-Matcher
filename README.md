@@ -31,13 +31,13 @@ Taking an example, we can run the following code to test VD-Matcher-S on the Sca
 ```bash
 # Testing VD-Matcher-S on the ScanNet dataset
 # Results are
-# 'auc@10': 0.4656007069532574,   'auc@20': 0.6284919440707899,   'auc@5': 0.2761418949994144
+# 'auc@5': 0.2761418949994144,   'auc@10': 0.4656007069532574,   'auc@20': 0.6284919440707899
 bash scripts/reproduce_test/indoor_small.sh
 ```
 ```bash
 # Testing VD-Matcher-S on the MegeDepth dataset
 # Results are
-# 'auc@10': 0.7334482280642276,   'auc@20': 0.8454705717469903,   'auc@5': 0.5713914477259984
+# 'auc@5': 0.5713914477259984,   'auc@10': 0.7334482280642276,   'auc@20': 0.8454705717469903
 bash scripts/reproduce_test/outdoor_small.sh
 ```
 
