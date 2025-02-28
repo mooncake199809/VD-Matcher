@@ -33,6 +33,7 @@ bash scripts/reproduce_test/indoor_small.sh
 ```
 ```bash
 # Testing VDMatcher-L on the ScanNet dataset
+# Results are
 # 'auc@10': 0.4656007069532574,   'auc@20': 0.6284919440707899,   'auc@5': 0.2761418949994144
 bash scripts/reproduce_test/indoor_large.sh
 ```
