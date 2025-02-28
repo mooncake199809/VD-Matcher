@@ -1,11 +1,11 @@
 # VD-Matcher: A Very Deep Local Feature Matcher with Weight Recycling and Keypoint Detection
 This is the PyTorch implementation of our paper "VD-Matcher: A Very Deep Local Feature Matcher with Weight Recycling and Keypoint Detection".
 
-![overall](https://github.com/mooncake199809/DSAP/blob/main/assets/overall.png)
+![overall](https://github.com/mooncake199809/VD-Matcher/blob/main/imgs/Overall.png)
 
 
 # Get Started Demo
-![demo_img](https://github.com/mooncake199809/DSAP/blob/main/demo/img_res.jpg)
+![demo_img](https://github.com/mooncake199809/VD-Matcher/blob/main/imgs/Overall.png)
 
 We provide a demo to directly visualize the matching results of DSAP.
 You can directly modify your images path to test your own images. The coarse matching threshold is set to 0.7 in this demo. You can change it in src/loftr/utils/cvpr_ds_config.py.
