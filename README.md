@@ -23,18 +23,19 @@ Please modify the dataset path in configs/data when training and testing.
 Please follow the official code of [LoFTR](https://github.com/zju3dv/LoFTR) to train VD-Matcher.
 
 # Evaluation
-The pre-trained models can be downloaded from [VDMatcher_Weights](https://drive.google.com/drive/folders/1FU8GZ_VdUdbBhPw7m00JNr5Nzd7ZEDg4).
+The pre-trained models can be downloaded from [VD-Matcher_Weights](https://drive.google.com/drive/folders/1FU8GZ_VdUdbBhPw7m00JNr5Nzd7ZEDg4).
 
-Then, we can simply run the following code provided in scripts/reproduce_test to test VDMatcher on the ScanNet and MegaDepth datasets.
-Taking an example, we can run the following code to test VDMatcher-S on the ScanNet and MegeDepth dataset.
+Then, we can simply run the following code provided in scripts/reproduce_test to test VD-Matcher on the ScanNet and MegaDepth datasets.
+Please change the "ckpt_path" in scripts/reproduce_test.
+Taking an example, we can run the following code to test VD-Matcher-S on the ScanNet and MegeDepth dataset.
 ```bash
-# Testing VDMatcher-S on the ScanNet dataset
+# Testing VD-Matcher-S on the ScanNet dataset
 # Results are
 # 'auc@10': 0.4656007069532574,   'auc@20': 0.6284919440707899,   'auc@5': 0.2761418949994144
 bash scripts/reproduce_test/indoor_small.sh
 ```
 ```bash
-# Testing VDMatcher-S on the MegeDepth dataset
+# Testing VD-Matcher-S on the MegeDepth dataset
 # Results are
 # 'auc@10': 0.7334482280642276,   'auc@20': 0.8454705717469903,   'auc@5': 0.5713914477259984
 bash scripts/reproduce_test/outdoor_small.sh
