@@ -27,14 +27,10 @@ The pre-trained models can be downloaded from [DSAP_Mega](https://drive.google.c
 Then, we can simply run the following code to test VDMatcher on the ScanNet and MegaDepth datasets
 ```bash
 # Testing VDMatcher-S on the ScanNet dataset
-# Results are
-# 'auc@10': 0.4847393547946092,   'auc@20': 0.6423085814767878,   'auc@5': 0.2985870969186877
 bash scripts/reproduce_test/indoor_small.sh
 ```
 ```bash
 # Testing VDMatcher-L on the ScanNet dataset
-# Results are
-# 'auc@10': 0.4656007069532574,   'auc@20': 0.6284919440707899,   'auc@5': 0.2761418949994144
 bash scripts/reproduce_test/indoor_large.sh
 ```
 ```bash
