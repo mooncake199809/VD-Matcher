@@ -32,7 +32,8 @@ Then, we run the following code to test DSAP on the ScanNet and MegaDepth datase
 bash scripts/reproduce_test/indoor_small.sh
 ```
 ```bash
-# Testing VDMatcher-S on the MegeDepth dataset
+# Testing VDMatcher-L on the ScanNet dataset
+# 'auc@10': 0.4656007069532574,   'auc@20': 0.6284919440707899,   'auc@5': 0.2761418949994144
 bash scripts/reproduce_test/indoor_large.sh
 ```
 ```bash
@@ -40,8 +41,8 @@ bash scripts/reproduce_test/indoor_large.sh
 bash scripts/reproduce_test/outdoor_small.sh
 ```
 ```bash
-# Testing VDMatcher-S on the MegeDepth dataset
-bash scripts/reproduce_test/outdoor_small.sh
+# Testing VDMatcher-L on the MegeDepth dataset
+bash scripts/reproduce_test/outdoor_large.sh
 ```
 
 # Acknowledgements
