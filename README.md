@@ -20,16 +20,13 @@ Please follow [LoFTR](https://github.com/zju3dv/LoFTR) to install the environmen
 Please modify the dataset path in /configs/data when training and testing.
 
 # Training
-We can run the scripts/reproduce_train/outdoor_ds.sh file to train DSAP.
-```bash
-bash scripts/reproduce_train/outdoor_ds.sh
-```
+Please follow the official code of LoFTR to train VD-Matcher.
 
 # Evaluation
 The pre-trained models can be downloaded from [DSAP_Mega](https://drive.google.com/drive/folders/1FU8GZ_VdUdbBhPw7m00JNr5Nzd7ZEDg4).
 Then, we run the following code to test DSAP.
 ```bash
-bash scripts/reproduce_test/outdoor_ds.sh
+bash scripts/reproduce_test/outdoor_small.sh
 ```
 
 # Acknowledgements
