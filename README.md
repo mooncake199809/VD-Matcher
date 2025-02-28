@@ -28,9 +28,7 @@ Then, we run the following code to test DSAP on the ScanNet and MegaDepth datase
 ```bash
 # Testing VDMatcher-S on the ScanNet dataset
 # Results are
-  'auc@10': 0.4847393547946092,
-  'auc@20': 0.6423085814767878,
-  'auc@5': 0.2985870969186877
+# 'auc@10': 0.4847393547946092,   'auc@20': 0.6423085814767878,   'auc@5': 0.2985870969186877
 bash scripts/reproduce_test/indoor_small.sh
 ```
 ```bash
