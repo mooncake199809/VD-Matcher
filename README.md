@@ -23,9 +23,9 @@ Please modify the dataset path in configs/data when training and testing.
 Please follow the official code of [LoFTR](https://github.com/zju3dv/LoFTR) to train VD-Matcher.
 
 # Evaluation
-The pre-trained models can be downloaded from [DSAP_Mega](https://drive.google.com/drive/folders/1FU8GZ_VdUdbBhPw7m00JNr5Nzd7ZEDg4).
-Then, we can simply run the following code provided in scripts/reproduce_test to test VDMatcher on the ScanNet and MegaDepth datasets.
+The pre-trained models can be downloaded from [VDMatcher_Weights](https://drive.google.com/drive/folders/1FU8GZ_VdUdbBhPw7m00JNr5Nzd7ZEDg4).
 
+Then, we can simply run the following code provided in scripts/reproduce_test to test VDMatcher on the ScanNet and MegaDepth datasets.
 Taking an example, we can run the following code to test VDMatcher-S on the ScanNet and MegeDepth dataset.
 ```bash
 # Testing VDMatcher-S on the ScanNet dataset
