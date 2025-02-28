@@ -24,7 +24,7 @@ Please follow the official code of [LoFTR](https://github.com/zju3dv/LoFTR) to t
 
 # Evaluation
 The pre-trained models can be downloaded from [DSAP_Mega](https://drive.google.com/drive/folders/1FU8GZ_VdUdbBhPw7m00JNr5Nzd7ZEDg4).
-Then, we run the following code to test DSAP on the ScanNet and MegaDepth datasets.
+Then, we can simply run the following code to test VDMatcher on the ScanNet and MegaDepth datasets
 ```bash
 # Testing VDMatcher-S on the ScanNet dataset
 # Results are
