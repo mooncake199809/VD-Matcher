@@ -5,7 +5,6 @@ import cv2
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from sklearn.decomposition import PCA
 
 INF = 1e9
 
