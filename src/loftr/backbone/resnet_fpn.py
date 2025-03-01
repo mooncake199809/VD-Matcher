@@ -202,3 +202,23 @@ class ResNetFPN_16_4(nn.Module):
 
         return [x4_out, x2_out]
 
+
+class FeatureSelectionModule(nn.Module):
+    def __init__(self, in_chan, out_chan, norm="GN"):
+        super(FeatureSelectionModule, self).__init__()
+        self.conv_atten = nn.Sequential(
+            nn.Conv2d(in_chan, in_chan, kernel_size=1),
+            nn.BatchNorm2d(in_chan)
+        )
+        self.sigmoid = nn.Sigmoid()
+        self.conv = nn.Sequential(
+            nn.Conv2d(in_chan, out_chan, kernel_size=1),
+        )
+
+    def forward(self, x):
+        atten = self.sigmoid(self.conv_atten(F.avg_pool2d(x, x.size()[2:])))
+        feat = torch.mul(x, atten)
+        x = x + feat
+        feat = self.conv(x)
+        return feat
+
