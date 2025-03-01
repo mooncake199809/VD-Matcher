@@ -17,7 +17,6 @@ python demo.py
 # Installation
 Our project is built upon the official code of LoFTR and trained on the ScanNet and MegaDepth dataset.
 Please follow [LoFTR](https://github.com/zju3dv/LoFTR) to install the environment and MegaDepth dataset.
-Please modify the dataset path in configs/data when training and testing.
 
 # Training
 Please follow the official code of [LoFTR](https://github.com/zju3dv/LoFTR) to train VD-Matcher.
@@ -25,8 +24,9 @@ Please follow the official code of [LoFTR](https://github.com/zju3dv/LoFTR) to t
 # Evaluation
 The pre-trained models can be downloaded from [VD-Matcher_Weights](https://drive.google.com/drive/folders/1Ht5f7qe8x2wVg6EQmFR5puFehsUWHgzN).
 
-Then, we can simply run the following code provided in scripts/reproduce_test to test VD-Matcher on the ScanNet and MegaDepth datasets.
+Then, we can simply run the following code to test VD-Matcher on the ScanNet and MegaDepth datasets.
 Please change the "ckpt_path" in scripts/reproduce_test.
+Besides, please modify the dataset path in configs/data when training and testing.
 Taking an example, we can run the following code to test VD-Matcher-S on the ScanNet and MegeDepth dataset.
 ```bash
 # Testing VD-Matcher-S on the ScanNet dataset
