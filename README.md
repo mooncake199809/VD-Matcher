@@ -25,9 +25,10 @@ Please follow the official code of [LoFTR](https://github.com/zju3dv/LoFTR) to t
 The pre-trained models can be downloaded from [VD-Matcher_Weights](https://drive.google.com/drive/folders/1Ht5f7qe8x2wVg6EQmFR5puFehsUWHgzN).
 
 Then, we can simply run the following code to test VD-Matcher on the ScanNet and MegaDepth datasets.
+Taking an example, we can run the following code to test VD-Matcher-S on the ScanNet and MegeDepth dataset.
+
 Please change the "ckpt_path" in scripts/reproduce_test.
 Besides, please modify the dataset path in configs/data when training and testing.
-Taking an example, we can run the following code to test VD-Matcher-S on the ScanNet and MegeDepth dataset.
 ```bash
 # Testing VD-Matcher-S on the ScanNet dataset
 # Results are
