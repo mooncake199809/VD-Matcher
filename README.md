@@ -39,6 +39,7 @@ bash scripts/reproduce_test/indoor_small.sh
 # 'auc@5': 0.5713914477259984,   'auc@10': 0.7334482280642276,   'auc@20': 0.8454705717469903
 bash scripts/reproduce_test/outdoor_small.sh
 ```
+![acc](https://github.com/mooncake199809/VD-Matcher/blob/main/imgs/acc.png)
 
 # Acknowledgements
 We appreciate the previous open-source repository [LoFTR](https://github.com/zju3dv/LoFTR).
